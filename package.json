@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "name": "leeson",
   "author": "SJ Lee",
   "description": "leeson total manage application",
@@ -18,6 +18,7 @@
     "postinstall": "npm run rebuild-native"
   },
   "dependencies": {
+    "@xmldom/xmldom": "^0.8.10",
     "electron-is-dev": "^1.1.0",
     "electron-log": "^5.3.0",
     "electron-next": "^3.1.5",
@@ -49,7 +50,7 @@
   },
   "build": {
     "appId": "com.leeson.app",
-    "productName": "LeeSon",
+    "productName": "leeson_app",
     "publish": [
       {
         "provider": "github",
